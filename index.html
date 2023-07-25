@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC hotel</title>
+    
+    <link rel="stylesheet" href="estiloscss/archivo.css">
+    <script src="https://kit.fontawesome.com/9edf5e1592.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body style="background-color: #78c1ee;">
+      <div class="conteiner" style="background-color: #ccccccf3;"">
+      <div class="conte">
+        <div class="row">
+          <div class="col">
+            <img id="mim" src="img/imalogo.jpg" alt="">     
+          </div>
+          <div class="col order-5">
+          </div>
+          <div class="col order-3 d-flex align-items-center justify-content-center">
+            <h5 class="text-center">¡Bienvenidos a la página web de nuestro hotel DreamStay!</h5>
+          </div>     
+        </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-custom-color" style="background-color: #ccccccf3">
+        
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="padding: 1%;"><h3><b>Inicio</b></h3></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <b>Nosotros</b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="nosotros.html">Blog</a></li>
+                    <li><a class="dropdown-item" href="galeria.html">Galeria</a></li>
+                    <li><a class="dropdown-item" href="#">Gastronomia</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <b>Servicios</b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="piscina.html">Piscina</a></li>
+                    <li><a class="dropdown-item" href="centronegocio.html">Centro de negocios</a></li>
+                    <li><a class="dropdown-item" href="#">Gym y Spa</a></li>
+                    <li><a class="dropdown-item" href="#">Transporte</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <b>Habitaciones</b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="habitacion1.html">King</a></li>
+                    <li><a class="dropdown-item" href="habitacion2.html">Doble</a></li>
+                    <li><a class="dropdown-item" href="habitacion3.html">Junio suite</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <b>Contactanos</b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Redes Sociales</a></li>
+                    <li><a class="dropdown-item" href="#">Llamanos</a></li>
+                    <li><a class="dropdown-item" href="#">Opiniones</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    <div id="contenItemsCarrusel">
+        <div class="ItemCarrusel" id="ItemCarrusel-1">
+            <div class="tarjetacarrusel"  id="tarjetacarrusel-1">
+                <img src="img/habi1.jpg" alt="">
+            </div>
+          <div class="flechascarrusel">
+            <a href="#ItemCarrusel-3">
+              <button>
+                <span>Ver foto anterior</span>
+              </button>
+            </a>
+            <a href="#ItemCarrusel-2">
+              <button>
+                <span>Pasar a la foto siguente</span>
+              </button>
+            </a>
+           </div>
+        </div>
+        <div class="ItemCarrusel" id="ItemCarrusel-2">
+            <div class="tarjetacarrusel"  id="tarjetacarrusel-2">
+                <img src="img/habi2.jpg" alt="">
+            </div>
+          <div class="flechascarrusel">
+            <a href="#ItemCarrusel-1">
+              <button>
+                <span>Ver foto anterior</span>
+              </button>
+            </a>
+            <a href="#ItemCarrusel-3">
+              <button>
+                <span>Pasar a la foto siguente</span>
+              </button>
+            </a>
+           </div>
+        </div>
+        <div class="ItemCarrusel" id="ItemCarrusel-3">
+            <div class="tarjetacarrusel"  id="tarjetacarrusel-3">
+                <img src="img/habi3.jpg" alt="">
+            </div>
+          <div class="flechascarrusel">
+            <a href="#ItemCarrusel-2">
+              <button>
+                <span>Ver foto anterior</span>
+              </button>
+            </a>
+            <a href="#ItemCarrusel-1">
+              <button>
+                <span>Pasar a la foto siguente</span>
+              </button>
+            </a>
+           </div>
+        </div>
+    </div>
+    <div id="contenedorpuntos">
+        <a href="#ItemCarrusel-1"><b>◉</b></a>
+        <a href="#ItemCarrusel-2"><b>◉</b></a>
+        <a href="#ItemCarrusel-3"><b>◉</b></a>
+    </div>
+    <div class="contenedor">
+      <div class="row">
+        <div class="col order-1 text-center" >
+          <img id="yt" src="img/imalogo.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="contenedor2">
+      <div class="row">
+        <div class="col" id="colum1">
+          <h3 style="color: blue; text-align: center;">Integrantes</h3>
+          <ul>
+            <li style="text-align: center;">Rebeca Emelieth Saballos Rueda.   carnet: 22-06530-1</li>
+            <li style="text-align: center;">Marlon Esteban Carvajal Rivera.    carnet: 22-05760-1</li>
+            <li style="text-align: center;">Danilo Josue Moran Cantillo.   carnet: 18-03944-1</li>
+            <li style="text-align: center;">Lester Antonio Sandino Oviedo   carnet: 22-00259-1</li>
+          </ul>
+          <div style=" text-align: center;">
+            <img src="img/Grupo.jpg" alt="" style="width: 400px; height: 200px;">
+          </div>
+        </div>
+        <div class="col" id="colum2" style="display: flex; justify-content: center;">
+          <iframe width="500" height="360" src="https://www.youtube.com/embed/Uhu1npAs6Ug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" id="colum3">
+          <h3 style="color: blue; text-align: center;">Nuestras Habitaciones</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" id="colum4" style="background-color: aqua;">
+          <div class="col" id="columhijo4">
+            <img src="img/habi1.jpg" alt="">
+          </div>
+          <div class="col" style="background-color: blue;" id="segundoh4">
+            <a href="habitacion1.html"><h3 style="color: #fff;">King</h3></a>
+          </div>
+          <div class="col" style="background-color: #fff;" id="ha1">
+            <p>Habitación estándar, 2 camas matrimoniales. Wifi gratis, camas confortables, vista a jardín o piscina. Habitaciones 100% libre de humo.</p>
+          </div>
+        </div>
+        <div class="col" id="colum5" style="background-color: aqua">
+          <div class="col" id="columhijo4">
+            <img src="img/habi2.jpg" alt="">
+          </div>
+          <div class="col" style="background-color: blue;" id="segundoh4">
+            <a href="habitacion2.html"><h3 style="color: #fff;">Doble</h3></a>
+          </div>
+          <div class="col" style="background-color: #fff;" id="ha1">
+            <p>Habitación Deluxe, 1 cama king size. Wifi gratis, cama confortable, vista a jardín o piscina. Habitaciones 100% libre de humo.</p>
+          </div>
+        </div>
+        <div class="col" id="colum6" style="background-color: aqua;">
+          <div class="col" id="columhijo4">
+            <img src="img/habi3.jpg" alt="">
+          </div>
+          <div class="col" style="background-color: blue;" id="segundoh4">
+            <a href="habitacion3.html"><h3 style="color: #fff;">Junio suite</h3></a>
+          </div>
+          <div class="col" style="background-color: #fff;" id="ha1">
+            <p>Espaciosa suite, 1 habitación con cama King, 1 sala con sofá. Wifi gratis, cama confortable, escritorio con silla ejecutiva, vista a jardín.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2" style="background-color: #fff;" id="textopis">
+        </div>
+        <div class="col-6" id="textopis">
+          <h3 style="color: blue; text-align: center;">Servicios y Comodidades</h3>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col" id="colpis1">
+        <div class="col" style="height: 350px;">
+          <div class="carrusol" style="height: 350px; width: 350px;">
+          <img src="img/origini.jpg" alt="">
+        </div>
+        </div>
+        </div>
+        <div class="col" style="background-color: #fff;" id="colpis2">
+          <div class="imgenpis" style="width: 350px;">
+             <img src="img/pis.jpg" alt="">
+          </div>
+          <div class="col">
+            <h3 style="color: blue;">Piscina</h3>
+            <p>Piscina para adultos y piscina infantil al aire libre, con un entorno natural inmejorable. Zambúllase en la impresionante piscina del hotel y disfrute de la comodidad de las tumbonas, chozas y altas palmeras que la rodean.</p>
+          </div>
+        </div>
+        <div class="col" id="colpis3" >
+          <video width="400" height="250" controls>
+            <source src="video/CINEMATIC HOTEL B ROLL SEQUENCE - SONY A6000 _ Hotel Haus am Markt Wipperfürth(720P_HD).mp4" type="video/mp4">
+         </video>
+        </div>
+      </div>
+      
+    </div>
+    <div class="divisor" style="background-color:#ccccccf3; height: 20px;"></div>
+    <div class="Pie" style="background-color: #fff; height: 413px;">
+      <div class="row">
+      <div class="col-1" style="display: flex;">
+        <div class="imgfoter" style="display: flex;">
+        <img src="img/Logowhat.jpg" alt="">
+      </div>
+      </div>
+      <div class="col-2" style="display: flex;">
+       <p><b>numero de celular:</b> 58535272</p>
+      </div>
+      <div class="col-1" style="display: flex;">
+        <div class="imgfoter">
+        <img src="img/gmaillogo.png" alt="">
+      </div>
+      </div>
+      <div class="col-2" style="display: flex; ">
+       <p><b>Correo:</b> <u>DreamStayhotel@gmail.com</u></p>
+      </div>
+      <div class="col-1" style="display: flex;">
+        <div class="imgfoter">
+        <img src="img/logoubica.jpg" alt="">
+      </div>
+      </div>
+      <div class="col"style="display: flex;">
+        <p><b>Ubicacion del hotel :</b><br> NICARAGUA - JINOTEGA</p>
+      </div>
+    </div>
+       <div class="row">
+        <div class="col"><br>
+          <h1></h1><br>
+          <a href="https://www.hyatt.com/es-ES/info/privacy-policy"><h2>Políticas y Privacidad</h2></a>
+        </div>
+        <div class="col" id="citin">
+          <button class="centered-button">Reserva tu habitacion</button>
+        </div>
+        
+       </div>
+    </div>
+    </div>
+
+      
+      
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

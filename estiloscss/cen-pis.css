@@ -1,0 +1,158 @@
+.header
+{
+    background-color: #38B6FF;
+}
+
+.p{
+    font-size: 12px;
+}
+
+.p1{
+    text-align:justify;
+}
+
+.carousel-inner{
+  max-height: 39rem;
+}
+
+.img{
+  width: 80px;
+  height: 80px;
+  
+}
+
+.navar a{
+padding: 20px;
+transition: 3s ease-out all;
+}
+
+.div-h5
+{
+    color: #004AAD;
+}
+
+.piscina{
+    text-align: justify;
+    line-height: 2em;
+}
+
+.imgcarousel{
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+
+
+.header-logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .header-logo img {
+      width: 80px;
+      margin-right: 10px;
+    }
+
+    .header-title {
+      color: #fff;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .header-title span {
+      font-size: 24px;
+      font-weight: normal;
+    }
+
+    .header-reservation-btn {
+      background-color: #fff;
+      color: #38B6FF;
+      font-size: 18px;
+      border: 2px solid #38B6FF;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    .header-reservation-btn:hover {
+      background-color: #38B6FF;
+      color: #fff;
+      cursor: pointer;
+      animation: bounce 1s infinite;
+    }
+
+
+    .text-center.font-weight-bold {
+            color: black;
+            white-space: nowrap;
+        }
+
+.logo {
+      color: #fff;
+      font-size: 24px;
+    }
+
+    .room-image {
+      width: 100%;
+      height: 300px;
+      border-radius: 5px;
+    }
+
+    .caracteristicas {
+      border: 2px solid #38B6FF;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    .barra-reservaciones .card {
+      font-size: 14px;
+      border-radius: 0.25rem;
+    }
+
+    .barra-reservaciones .form-label {
+      font-size: 12px;
+    }
+
+    .barra-reservaciones .form-control,
+    .barra-reservaciones .form-select {
+      height: 30px;
+      font-size: 12px;
+    }
+
+    .barra-reservaciones .btn {
+      font-size: 12px;
+      padding: 4px 12px;
+    }
+
+    .barra-reservaciones p {
+      font-size: 12px;
+    }
+
+    /* Color personalizado para la barra de reservaciones */
+    .barra-reservaciones {
+      background-color: #E1F3FF; /* Color de fondo claro */
+      padding: 10px;
+      border-radius: 5px;
+      color: #38B6FF; /* Color del texto */
+    }
+    .btn-bounce {
+      animation: bounce 1s infinite;
+    }
+
+.imggym{
+    height: 100%;
+    width: 100%;
+}
+
+#mim{
+    width: 350px;
+    height: 250px;
+}
+
+.conte{
+    height: 250px;
+    background-color: #fff;
+}

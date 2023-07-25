@@ -1,0 +1,220 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+  button {
+    border: 0;
+    background-image: linear-gradient(150deg, #9500ff, #09f, #00DDFF);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  button span {
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+  }
+  
+  button:hover span {
+    background: none;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+  
+  /* General styles for container elements */
+  .container {
+    background-color: #ccccccf3;
+  }
+  
+  /* Styles for the header section */
+  #mim {
+    width: 350px;
+    height: 250px;
+  }
+  
+  h1 {
+    color: #111;
+  }
+  
+  .conte {
+    height: 250px;
+    background-color: #fff;
+  }
+  
+  /* Styles for the carousel section */
+  #contenItemsCarrusel {
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .ItemCarrusel {
+    height: 100%;
+    position: relative;
+  }
+  
+  .tarjetacarrusel {
+    height: 100%;
+  }
+  
+  .flechascarrusel {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  #tarjetacarrusel-1 {
+    background-color: rgb(142, 92, 189);
+  }
+  
+  #tarjetacarrusel-2 {
+    background-color: blue;
+  }
+  
+  #tarjetacarrusel-3 {
+    background-color: aquamarine;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  i {
+    color: black;
+  }
+  
+  #contenedorpuntos {
+    background-color: #ccccccf3;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #contenedorpuntos > a {
+    font-size: 1.5em;
+    font-style: none;
+    color: black;
+  }
+  
+  /* Styles for the image container */
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contenedor {
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  #yt {
+    width: 200px;
+  }
+  
+  /* Styles for the rest of the content */
+  .contenedor2 {
+    background-color: #fff;
+    padding: 12px;
+  }
+  
+  #colum1,
+  #colum2,
+  #colum3,
+  #colum4,
+  #colum5,
+  #colum6 {
+    margin: 12px;
+  }
+  
+  #textopis {
+    margin: 12px;
+  }
+  
+  #colpis1,
+  #colpis2,
+  #colpis3 {
+    margin: 12px;
+  }
+  
+  #colpis1 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #colpis1 a {
+    text-decoration: none;
+  }
+  
+  #citin {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+  }
+  
+  .centered-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    cursor: pointer;
+  }
+  
+  /* Media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    /* Modify styles for smaller screens */
+    .container {
+      height: auto;
+    }
+  
+    #mim {
+      width: 100%;
+      height: auto;
+    }
+  
+    .conte {
+      height: auto;
+    }
+  
+    .contenedor {
+      height: auto;
+    }
+  
+    #yt {
+      width: 100px;
+    }
+  
+    .contenedor2 {
+      height: auto;
+    }
+  
+    /* Add other responsive styles as needed */
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Modify styles for even smaller screens */
+    /* Add responsive styles for elements that need further adjustments */
+  }
+  
+  
